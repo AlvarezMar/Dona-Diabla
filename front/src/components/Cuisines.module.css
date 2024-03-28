@@ -1,0 +1,45 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cuisines{
+    text-align: center;
+}
+
+.cuisines span{
+    text-transform: uppercase;
+    color: rgb(243, 83, 20);
+    font-size: .8rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.cuisines h1{
+    margin-top: .3rem;
+    margin-bottom: 0;
+}
+
+.cuisines_categories{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+
+.img_container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 2rem;
+}
+
+.img_container img{
+    max-width: 210px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 1rem;
+    display: flex;
+    margin: 0 auto;
+}
+
+

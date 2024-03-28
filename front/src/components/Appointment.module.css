@@ -1,0 +1,74 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.appointment{
+    display: flex;
+    justify-content: space-around;
+}
+
+.appointment p{
+    display: flex;
+    justify-content: center;
+    width: 7.5rem;
+    align-items: center;
+    font-weight: 550;
+    margin: .7rem;
+}
+
+.id{
+    width: 2px;
+}
+
+.appointment span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.appointment span img{
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.status{
+    border: solid 2px;
+    padding: .3rem 0rem;
+    border-radius: .5rem;
+    font-size: .9rem;
+}
+
+.active{
+    color: #00C853;
+}
+
+.cancelled{
+    color: #E53935;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color);
+    border-radius: .3rem;
+    border: 1px solid black;
+    border-bottom: 4px solid black;
+    font-weight: bold;
+    transition: ease .5s;
+    font-size: .8rem;
+    height: 30px;
+
+
+    &:hover{
+        cursor: pointer;
+        background-color: rgb(255, 166, 0);
+        transition: ease .3s;
+    }
+
+}
+
+
+

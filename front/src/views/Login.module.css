@@ -1,0 +1,125 @@
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.login{
+    border-radius: 2rem;
+    -webkit-box-shadow: 0px 0px 37px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 37px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 37px -1px rgba(207, 207, 207, 0.75);
+    overflow: hidden;
+    height: 400px;
+}
+
+.login h1{
+    padding-top: 1rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.register{
+    text-align: center;
+    font-size: .9rem;
+    margin-bottom: 1.5rem;
+    margin-top: .7rem;
+}
+
+.register a{
+    text-decoration: none;
+    color: #ffa600;
+    font-weight: bold;
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+    padding: 0 4rem 3rem 4rem;
+}
+
+.login_form input{
+    padding: .7rem;
+    border: none;
+    border-radius: .4rem;
+    margin-bottom: .8rem;
+
+    &:focus{
+        outline: 1px solid var(--primary-color);
+    }
+}
+
+.btn{
+    background-color: var(--primary-color);
+    padding: .7rem;
+    margin-top: 2.5rem;
+    border: 1px solid black;
+    border-bottom: 4px solid black;
+    border-radius: .3rem;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: ease .5s;
+    width: 100%;
+
+    &:hover{
+        cursor: pointer;
+        background-color: #ffa600;
+        transition: ease .3s;
+    }
+}
+
+.logged{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.logged img{
+    width: 70px;
+}
+
+.logged h1{
+    margin: 0;
+    font-style: italic;
+}
+
+.logged p{
+    font-size: 1.7rem;
+    margin: .5rem;
+    color: var(--primary-color);
+}
+
+.error{
+    height: .1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.error p{
+    margin: 0;
+    font-size: .8rem;
+    color: red;
+}
+
+.forgot{
+    text-decoration: none;
+    color: #ffa600;
+    font-size: .9rem;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.alert{
+    color: white;
+    font-weight: bold;
+
+    background-color: #D9534F;
+    border-radius: .5rem;
+    max-width: 500px;
+}
+
+.alert p{
+    padding: 1rem;
+    text-align: center;
+}

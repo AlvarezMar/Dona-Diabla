@@ -1,0 +1,52 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-right: 0;
+}
+
+.myAppointments{
+    border-radius: .7rem;
+    -webkit-box-shadow: 0px 0px 37px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 37px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 37px -1px rgba(207, 207, 207, 0.75);
+    overflow: hidden;
+    margin-bottom: 5rem;
+}
+
+.myAppointments h1{
+    padding-left: 3rem;
+    padding-top: .3rem;
+    margin-bottom: 0;
+}
+
+.myAppointments img{
+    display: flex;
+    margin: 0 auto;
+    padding-top: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.appointment_list div:nth-child(even){
+    background-color: wheat;
+    
+}
+
+.appointment_fields{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: var(--primary-color);
+    gap: .5rem;
+}
+
+.appointment_fields h3{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+}
+
+.no_appointment{
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 7rem;
+}

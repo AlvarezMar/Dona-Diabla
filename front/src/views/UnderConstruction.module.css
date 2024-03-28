@@ -1,0 +1,33 @@
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.underConstruction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.underConstruction img{
+    max-width: 250px;
+    padding-top: 3rem;
+}
+
+.underConstruction h1{
+    margin-bottom: 0;
+    font-size: 3rem;
+    font-style: italic;
+}
+
+.underConstruction span{
+    color: var(--primary-color);
+}
+
+.underConstruction p{
+    padding: 0 3rem 3rem 3rem;
+    font-size: 1.2rem;
+    text-align: center;
+    font-style: italic;
+}

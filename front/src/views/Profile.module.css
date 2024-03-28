@@ -1,0 +1,23 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.profile{
+    border-radius: .7rem;
+    
+}
+
+.profile_heading{
+    padding-left: 3rem;
+}
+.profile_menu{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1.5rem;
+}
+
+
+.appointments{
+    padding-top: 2rem;
+}

@@ -1,0 +1,38 @@
+.profile a:nth-child(n):not(:last-child){
+    display: flex;
+    background-color: var(--primary-color);
+    border: 1px solid black;
+    border-bottom: 4px solid black;
+    padding: 1.5rem;
+    border-radius: .4rem;
+    font-weight: bold;
+    margin: 1.2rem 0rem;
+
+    color: black;
+    text-decoration: none;
+
+    &:hover{
+        background-color: rgb(255, 166, 0);
+        transition: ease .3s;
+    }
+}
+
+.profile a:last-child{
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+    border-bottom: 4px solid black;
+    padding: 1.5rem;
+    border-radius: .4rem;
+    font-weight: bold;
+    margin: 1.2rem 0rem;
+
+    color: black;
+    text-decoration: none;
+
+    &:hover{
+        background-color: #D9534F;
+        color: white;
+        transition: ease .3s;
+    }
+}
