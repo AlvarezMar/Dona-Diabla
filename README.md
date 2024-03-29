@@ -2,7 +2,7 @@
 
 Doña Diabla is a proyect comprising two components. The back component offers a RESTful API for managing appointments and user data. Meanwhile, the front component provides an intuitive user interface, enabling users to interact seamlessly with the restaurant web and look over their appointments in a visually appealing format.
 
-<img src="./assets/home.png" alt="Imagen 1" style='border-radius: .5rem'>
+<img src="./assets/home.png" alt="Landpage of Doña Diabla">
 
 <h2>Instalation</h2>
 To deploy the project locally, proceed as follows:
@@ -24,10 +24,11 @@ npm i
 npm run dev
 ```
 <h2>Usage</h2>
+
 Once both applications are operational, access the frontend through your preferred web browser to begin interacting with the application. Doña Diabla offers a wide range of functionalities, including user authentication, registration, reservation scheduling, and account management.
 
-<img src="./assets/register.png" alt="Imagen 1" style='border-radius: .5rem'>
-<img src="./assets/appointments.png" alt="Imagen 1" style='border-radius: .5rem'>
+<img src="./assets/register.png" alt="Register Form of Doña Diabla">
+<img src="./assets/appointments.png" alt="My Appointments View of Doña Diabla">
 
 <h2>Contribution</h2>
 
